@@ -1,0 +1,77 @@
+#section4 {
+    font-size: 62.5%;
+    height: 100vh;
+    background-image: url('./background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.paymenttypeContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.7rem;
+}
+
+.paymenttypeContent h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.paymenttypeContent p {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.paymenttypeContent h2 {
+    text-decoration: line-through;
+}
+
+.paymenttypeContent h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--cor0);
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.507);
+}
+
+.finalText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.finalText {
+    background-color: #00000054;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.finalText img{
+    max-width: 150px;
+    padding: 20px;
+}
+
+.finalText p {
+    width: 400px;
+    padding: 20px;
+}
+
+@media (min-width: 1024px) {
+    .finalText {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .finalText p {
+        font-size: 0.8rem;
+    }
+}
